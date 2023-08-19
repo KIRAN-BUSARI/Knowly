@@ -9,9 +9,10 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <section className="container max-w-[80vw] mx-auto" id="Home">
+            <section className="container max-w-[80vw] mx-auto bg-white " id="Home">
+                {/* dark:bg-slate-950 dark:text-white add to above line for dark mode. */}
                 <div className="flex items-center jus">
-                    <div className="flex w-[50%] h-[50vh] justify-center flex-col">
+                    <div className="flex w-[50%] h-[60vh] justify-center flex-col">
                         <h1 className="my-[13px] font-sans font-bold text-2xl">
                             Explore courses <span className="text-[#0095ff]">That You Love!</span>
                         </h1>

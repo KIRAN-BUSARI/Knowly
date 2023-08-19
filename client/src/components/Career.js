@@ -6,7 +6,7 @@ export default function Career() {
             <div className="container mx-auto max-w-[80vw]">
                 <section className="list-none overflow-y-hidden" id="Career">
                     <main className="min-h-[100vh]">
-                        <h2 className="pt-[20px] pb-[20px] text-center text-[2rem] font-[600] font-serif text-[#0095ff]">Career services</h2>
+                        <h2 className="pt-[50px] pb-[20px] text-center text-[2rem] font-[600] font-serif text-[#0095ff]">Career services</h2>
                         <section className="list-none overflow-y-hidden">
                             <div className="flex">
                                 <div className="m-[5px] p-[25px] h-[35vh] w-[30vw] flex flex-col justify-end rounded-[20px] rounded-tr-[0px] rounded-bl-[0px] border-[3px] border-[#0095ff] border-solid">

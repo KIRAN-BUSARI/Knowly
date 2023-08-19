@@ -6,7 +6,7 @@ export default function Courses() {
         <>
             {/* <Home /> */}
             <section className="container mx-auto max-w-[80vw] pb-[20px]" id="Courses">
-                <h2 className="text-center my-2 text-2xl font-sans font-bold p-3">Courses</h2>
+                <h2 className="text-center my-2 text-[2rem] text-[#0095ff] font-serif font-bold p-2 pt-[50px]">Courses</h2>
                 <p className="text-center py-[13px] py">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore,
                     odio quod maxime doloremque vero facere molestiae, repellendus
@@ -17,7 +17,7 @@ export default function Courses() {
                     <div className="mr-[20px] p-[10px] rounded-[20px] border-[2px] border-black w-[1180px] h-90">
                         <h2 className="text-center py-[13px] text-[#0095ff] text-2xl font-semibold font-serif">Web-Development</h2>
                         <hr />
-                        <ul className=''>
+                        <ul>
                             <li className="text-center text-[20px] p-[10px]"> &#x20B9;1500</li>
                             <li className="text-[20px] text-center p-[10px]">Course Description</li>
                             <li className="p-[10px]">
