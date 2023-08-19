@@ -3,8 +3,8 @@ import React from 'react'
 export default function Features() {
     return (
         <>
-            <div className="container mx-auto max-w-[80vw]">
-                <h1 className="pt-[20px] pb-[20px] text-center text-[#0095ff] text-[2rem] font-[400] font-serif">Features of <span className="text-[#ff7070] font-bold text-[45px]">Knowly !</span></h1>
+            <div className="container mx-auto max-w-[80vw]" id='Features'>
+                <h1 className="pt-[50px] pb-[20px] text-center text-[#0095ff] text-[2rem] font-[400] font-serif">Features of <span className="text-[#ff7070] font-bold text-[45px]">Knowly !</span></h1>
                 <main className="min-h-[80vh]">
                     <div>
                         <ul className="flex px-[30px] py-[10px] list-none justify-around min-h-[30vh] text-[30px] text-center">

@@ -13,8 +13,9 @@ export default function Navbar() {
                                 <li><a className='p-3' href="#Courses">Courses</a></li>
                                 <li><a className='p-3' href="#Communities">Communities</a></li>
                                 <li><a className='p-3' href="#Career">Career</a></li>
-                                <li><a className='p-3' href="#Contact">ContactUs</a></li>
-                                <a className='border-[1px] border-solid border-[#000] rounded-full px-2 bg-[#0095ff] text-[#fff] hover:bg-[#fff] hover:text-[#0095ff]' href="/signin" target="_blank"><li><button>Sign-In</button></li></a>
+                                <li><a className='p-3' href="#Features">Features</a></li>
+                                <li><a className='p-3' href="#Contactus">ContactUs</a></li>
+                                <a className='border-[1px] border-solid border-[#000] rounded-full px-2 bg-[#0095ff] text-[#fff] hover:bg-[#fff] hover:text-[#0095ff] hover:px-3 hover:py-1' href="/signin" target="_blank"><li><button>Sign-In</button></li></a>
                             </ul>
                         </nav>
                     </div>
