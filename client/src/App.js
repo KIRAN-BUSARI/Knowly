@@ -6,6 +6,8 @@ import {
 
 import Home from "./components/Home";
 import CommunityPage from "./components/CommunityPage";
+import Signin from "./components/Signin";
+import Signup from "./components/Signup";
 
 function App() {
   return (
@@ -14,8 +16,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="/CommunityPage" element={<CommunityPage />} />
+          <Route path="/signin" element={<Signin />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </BrowserRouter>
     </>
