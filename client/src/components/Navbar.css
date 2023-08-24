@@ -1,0 +1,11 @@
+nav ul:hover li {
+    filter: blur(5px);
+}
+
+nav ul:hover li:last-child {
+    filter: blur(0px);
+}
+
+nav ul li:hover {
+    filter: blur(0px);
+}
